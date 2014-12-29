@@ -13,6 +13,7 @@
 		4B51BD931A44C4F500B16AF5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B51BD921A44C4F500B16AF5 /* Images.xcassets */; };
 		4B51BD961A44C4F500B16AF5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B51BD941A44C4F500B16AF5 /* LaunchScreen.xib */; };
 		4B51BDA21A44C4F500B16AF5 /* To_Do_ListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B51BDA11A44C4F500B16AF5 /* To_Do_ListTests.swift */; };
+		4B51BDAE1A457E8300B16AF5 /* addNewItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B51BDAD1A457E8300B16AF5 /* addNewItemViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		4B51BD9B1A44C4F500B16AF5 /* To Do ListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "To Do ListTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B51BDA01A44C4F500B16AF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4B51BDA11A44C4F500B16AF5 /* To_Do_ListTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = To_Do_ListTests.swift; sourceTree = "<group>"; };
+		4B51BDAD1A457E8300B16AF5 /* addNewItemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = addNewItemViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				4B51BD8B1A44C4F500B16AF5 /* AppDelegate.swift */,
 				4B51BD8D1A44C4F500B16AF5 /* ViewController.swift */,
+				4B51BDAD1A457E8300B16AF5 /* addNewItemViewController.swift */,
 				4B51BD8F1A44C4F500B16AF5 /* Main.storyboard */,
 				4B51BD921A44C4F500B16AF5 /* Images.xcassets */,
 				4B51BD941A44C4F500B16AF5 /* LaunchScreen.xib */,
@@ -213,6 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4B51BD8E1A44C4F500B16AF5 /* ViewController.swift in Sources */,
+				4B51BDAE1A457E8300B16AF5 /* addNewItemViewController.swift in Sources */,
 				4B51BD8C1A44C4F500B16AF5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
